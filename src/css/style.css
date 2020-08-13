@@ -1,0 +1,13 @@
+@import url('../../build/css/2-helpers-base/_typography.css');
+@import url('../../build/css/2-helpers-base/_global.css');
+@import url('../../build/css/2-helpers-base/_variables.css');
+@import url('../../build/css/2-helpers-base/_reset.css');
+@import url('../../build/css/1-layout/_header.css');
+@import url('../../build/css/1-layout/_main.css');
+@import url('../../build/css/1-layout/_footer.css');
+@import url('../../build/css/1-layout/_showcase.css');
+@import url('../../build/css/1-layout/_responsive.css');
+@import url('../../build/css/0-plugins/owl-carousel.min.css');
+@import url('../../build/css/0-plugins/aos.css');
+
+

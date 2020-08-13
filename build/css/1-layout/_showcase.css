@@ -1,0 +1,49 @@
+
+
+header{
+    overflow-y: hidden !important;
+}
+section.wrapper{
+        font-family: 'Raleway', sans-serif;
+        overflow: hidden !important;
+        margin-bottom: 2rem;
+}
+.showcase{
+    height: auto;
+    width: 100vw;  
+    background-image: url('../../../src/images/neill-kumar.jpg');
+    background-repeat: no-repeat;
+    overflow-y: hidden !important;
+}
+.content{
+    color: var(--black);
+}
+.content .head{
+    font-size: 3rem;
+    font-weight: bold;
+    max-width: 50%;
+    font-family: 'Anton', sans-serif;
+    line-height: 3.7rem;
+}
+.content .lead{
+    font-size: 1.2rem;
+    max-width: 50%;
+    margin: 2rem auto;
+    line-height: 1.5rem;
+    font-weight: 600;
+}
+.content .btn{
+    background-color: transparent;
+    color: var(--black);
+    border: 5px solid var(--white);
+    padding: 1rem 3.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    -webkit-transition: all 650ms ease;
+    -o-transition: all 650ms ease;
+    transition: all 650ms ease;
+}
+.content .btn:hover{
+    background-color: var(--white);
+}

@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../../../src/fonts/muli/Muli.ttf');
+  }
+  @font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../../../src/fonts/Raleway/Raleway-Regular.ttf');
+  }
+  @font-face {
+    font-family: 'Anton';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../../../src/fonts/Anton-Regular.ttf');
+  }
+

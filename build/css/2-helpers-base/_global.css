@@ -1,0 +1,89 @@
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.fluid{
+    width: 100%;
+    height: auto;
+}
+.container-fluid-big{
+  width: 90vw;
+  margin: auto;
+}
+.big-fluid{
+  height: 90vh;
+  width: 100%;
+}
+.avatar{
+  border-radius: 50%;
+}
+a{
+  text-decoration: none;
+  color: var(--black);
+}
+/* Flexbox */
+.flex{
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-orient: horizontal;
+-webkit-box-direction: normal;
+  -ms-flex-direction: row;
+      flex-direction: row;
+}
+.column{
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+.center{
+  text-align: center;
+}
+.center-x{
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+height: 100vh;
+}
+.center-y{
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+}
+.center-x-y{
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+height: 100vh;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+}
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--black);
+
+}
+::-webkit-scrollbar-thumb:hover{
+  background: var(--dark);
+}
